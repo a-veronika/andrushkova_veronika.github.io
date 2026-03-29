@@ -1,0 +1,56 @@
+/* вставити картинку шоб була на весь екран */
+body {
+    background-image: url("../img/hero.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* ШРИФТИ */
+.kapakana {
+  font-family: 'Kapakana', cursive;
+  font-size: 10rem;
+}
+
+.fira-sans {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 10rem;
+}
+
+/* КНОПКИ */
+.hero-buttons a {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero-buttons a:hover {
+  background-color: rgba(255, 167, 218, 0.5);
+  transform: scale(1.05);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* розкидає по ширині */
+  align-items: center;
+}
+.hero-title {
+  font-family: "Kapakana", cursive; 
+  color: aliceblue;
+  margin-top: 60px; 
+  margin-left: 10%; 
+  margin-bottom: 5px; /* відстань між заголовком і текстом */
+}
+.hero-paragraph {
+  font-family: "Fira Sans", sans-serif; 
+  color:aliceblue;
+  margin: 0; /* відступ зверху */
+  margin-left: 10%;   /* лівий відступ = 0 */
+  text-align: left; /* вирівнювання тексту по лівому краю */
+}

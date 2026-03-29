@@ -1,0 +1,64 @@
+:root {
+    --txt-primary-color: #ffffff; /* колір основого тексту */
+    --txt-color-02: #51142d; /* колір основого тексту на фоні (інверсія) */
+    --bg-color-01: #333; /* колір фону 1 */
+    --bg-color-02: #ffffff; /* колір фону 2 */
+    --lnk-color-01: #900; /* коілр покликань */
+    --lnk-color-02: #c00; /* коілр покликань hover */
+    --btn-color-01: #900; /* колір кнопки 1 */
+    --btn-color-02: #c00; /*колір кнопки 2*/
+
+    --mod-padding: 20px;/* відсутипи да контенту на мобільному */
+    --ipad-padding: 40px; /* відступи до контенту на планшеті */
+    --max-width: 1280px; /* обмеження ширини контексту для desktop */
+
+    --ver-desk-pad: 20px; /*відступи по вертикалі у секціях декстоп*/
+    --ver-mob-pad: 25px; /*відступи по вертикалі у секціях мобайл*/
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--txt-primary-color)
+}
+
+/* заголовки */
+h1 {
+    font-size: 20rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+/* текст */
+p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+/* КОНТЕЙНЕР */
+.inside {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-left: var(--ipad-padding);
+    padding-right: var(--ipad-padding);
+}
+
+header,
+section,
+footer {
+    padding-top: var(--ver-desk-pad);
+    padding-bottom: var(--ver-desk-pad);
+}
